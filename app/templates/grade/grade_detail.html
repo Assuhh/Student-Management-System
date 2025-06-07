@@ -1,0 +1,27 @@
+{% extends 'app/base.html' %}
+{% load static %}
+
+{% block styles %}
+<link rel="stylesheet" href="{% static 'css/grade/grade_detail.css' %}">
+{% endblock %}
+
+{% block content %}
+<h2><a href="/" class="back-link">❮ Grade Details</a></h2>
+<table id="grade-table">
+    <thead>
+        <tr>
+            <th>Type</th>
+            <th>Title</th>
+            <th>Score</th>
+            <th>Max Score</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody></tbody>
+</table>
+{% endblock %}
+
+{% block scripts %}
+<script src="{% static 'js/config.js' %}"></script>
+<script src="{% static 'js/grade/grade_detail.js' %}"></script>
+{% endblock %}
