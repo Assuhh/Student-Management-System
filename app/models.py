@@ -3,10 +3,10 @@ from django.core.validators import RegexValidator
 from django.core.exceptions import ValidationError
 
 SECTION_CHOICES = [
-    ('HM', 'Headless Mami'),
-    ('HQ', 'Holy Quintet'),
-    ('WPS', 'Walpurgisnacht Section'),
-    ('KMS', 'Kyubey Monitoring Squad'),
+    ('USA', 'America'),
+    ('SWZ', 'Switzerland'),
+    ('AZB', 'Azerbaijan'),
+    ('OHO', 'Ohio'),
 ]
 
 SEX_CHOICES = [

@@ -16,23 +16,24 @@
     margin-bottom: 15px;
     border-radius: 10px;
     box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    transition: transform 0.2s ease, box-shadow 0.2s ease, border-left-color 0.2s ease;
     display: flex;
     justify-content: space-between;
     align-items: center;
     cursor: pointer;
+    border-left: 6px solid transparent; /* add this for smooth border effect */
 }
 
 #subject-list li:hover {
     transform: scale(1.01);
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-    border-left: 6px solid #0057a3;
+    border-left-color: #66A5AD; /* updated to palette */
 }
 
 .subject-title {
     font-size: 1.2rem;
     font-weight: 600;
-    color: #0057a3;
+    color: #66A5AD; /* updated */
 }
 
 .subject-code {
@@ -41,7 +42,7 @@
 }
 
 #create-subject-btn {
-    background-color: #0057a3;
+    background-color: #66A5AD; /* updated */
     color: white;
     border: none;
     padding: 10px 16px;
@@ -52,7 +53,7 @@
 }
 
 #create-subject-btn:hover {
-    background-color: #003f7d;
+    background-color: #3B7A7F; /* updated hover */
 }
 
 @media (max-width: 600px) {

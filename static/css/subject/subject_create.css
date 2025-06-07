@@ -1,20 +1,32 @@
 form {
     max-width: 800px;
     margin: auto;
-    padding: 20px;
+    padding: 30px 25px; /* a bit more padding */
     background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: box-shadow 0.3s ease;
+}
+
+form:hover {
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.18);
 }
 
 h2 {
-    color: #0057a3;
+    color: #66A5AD;
+    font-weight: 700;
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+    letter-spacing: 0.05em;
+    text-align: center;
 }
 
 .form-container {
     display: flex;
     gap: 40px;
     justify-content: space-between;
+    flex-wrap: wrap; /* for responsiveness */
 }
 
 .left-column,
@@ -22,38 +34,51 @@ h2 {
     flex: 1;
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 18px;
+    min-width: 280px; /* responsive */
 }
 
 label {
-    font-weight: bold;
-    color: #0057a3;
+    font-weight: 600;
+    color: #66A5AD;
+    margin-bottom: 6px;
+    user-select: none;
 }
 
 input[type="text"],
 input[type="number"] {
-    padding: 10px;
-    font-size: 1rem;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+    padding: 12px 14px;
+    font-size: 1.1rem;
+    border: 1.5px solid #ccc;
+    border-radius: 8px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    outline-offset: 2px;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus {
+    border-color: #66A5AD;
+    box-shadow: 0 0 8px #66A5ADaa;
 }
 
 .checkbox-label {
     font-size: 0.9rem;
     color: #333;
-    margin-top: 10px;
+    margin-top: 12px;
 }
 
 .weight-instruction {
     font-size: 0.85rem;
     color: #666;
-    margin-top: -5px;
+    margin-top: -4px;
+    font-style: italic;
 }
 
 .warning {
-    color: red;
-    font-weight: bold;
-    font-size: 0.9rem;
+    color: #d32f2f;
+    font-weight: 700;
+    font-size: 0.95rem;
+    margin-top: 6px;
 }
 
 .hidden {
@@ -63,32 +88,39 @@ input[type="number"] {
 .button-group {
     display: flex;
     justify-content: flex-end;
-    gap: 10px;
-    margin-top: 20px;
+    gap: 14px;
+    margin-top: 30px;
 }
 
 button {
-    padding: 10px 15px;
-    background-color: #0057a3;
+    padding: 12px 20px;
+    background-color: #66A5AD;
     color: white;
     border: none;
-    border-radius: 5px;
-    font-size: 1rem;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    font-weight: 600;
     cursor: pointer;
+    box-shadow: 0 4px 10px #66A5ADaa;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    user-select: none;
 }
 
 button:disabled {
     background-color: #888;
     cursor: not-allowed;
+    box-shadow: none;
 }
 
 button:hover:not(:disabled) {
-    background-color: #003f7d;
+    background-color: #3B7A7F;
+    box-shadow: 0 6px 14px #3B7A7Fcc;
 }
 
 #create-status {
     text-align: center;
-    margin-top: 15px;
-    font-weight: bold;
-    color: green;
+    margin-top: 20px;
+    font-weight: 700;
+    color: #2e7d32; /* deeper green */
+    font-size: 1.1rem;
 }

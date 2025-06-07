@@ -5,7 +5,7 @@
 }
 
 .btn-enroll {
-    background-color: #0057a3;
+    background-color: #66A5AD; /* seafoam green */
     color: white;
     border: none;
     padding: 10px 16px;
@@ -18,7 +18,7 @@
 }
 
 .btn-enroll:hover {
-    background-color: #003f7d;
+    background-color: #4d8386; /* darker seafoam on hover */
 }
 
 #enrollment-list {
@@ -28,11 +28,11 @@
 }
 
 .enrollment-item {
-    background-color: #ffffff;
+    background-color: #C4DFE6; /* light blue background */
     padding: 20px;
     margin-bottom: 15px;
     border-radius: 10px;
-    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 3px 8px rgba(102, 165, 173, 0.2); /* seafoam shadow */
     transition: transform 0.2s ease, box-shadow 0.2s ease;
     display: flex;
     justify-content: space-between;
@@ -41,8 +41,8 @@
 
 .enrollment-item:hover {
     transform: scale(1.01);
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-    border-left: 6px solid #0057a3;
+    box-shadow: 0 4px 12px rgba(77, 131, 134, 0.3); /* darker shadow on hover */
+    border-left: 6px solid #66A5AD; /* seafoam border */
 }
 
 .enrollment-info {
@@ -50,26 +50,27 @@
     flex-direction: column;
     gap: 4px;
     font-size: 0.95rem;
+    color: #064547; /* dark seafoam text */
 }
 
 .enrollment-actions a {
     margin-left: 10px;
     text-decoration: none;
     font-weight: bold;
-    color: #0057a3;
+    color: #66A5AD; /* seafoam green */
 }
 
 .enrollment-actions a:hover {
-    color: #003f7d;
+    color: #4d8386; /* darker seafoam */
 }
 
 .status-active {
-    color: green;
+    color: #2e7d32; /* a green with good contrast */
     font-weight: bold;
 }
 
 .status-inactive {
-    color: red;
+    color: #c62828; /* red */
     font-weight: bold;
 }
 

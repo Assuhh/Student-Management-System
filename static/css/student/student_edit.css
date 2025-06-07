@@ -52,7 +52,7 @@ select {
 
 input:focus,
 select:focus {
-    border-color: #0057a3;
+    border-color: #66A5AD; /* changed */
     outline: none;
 }
 
@@ -74,12 +74,12 @@ button {
 }
 
 .update-btn {
-    background-color: #0057a3;
+    background-color: #66A5AD; /* changed */
     color: #fff;
 }
 
 .update-btn:hover {
-    background-color: #003f7d;
+    background-color: #3B7A7F; /* changed */
 }
 
 .cancel-btn {

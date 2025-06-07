@@ -5,13 +5,13 @@
     text-align: center;
     margin-top: 15px;
     font-weight: bold;
-    color: green !important;
+    color: #66A5AD !important; /* seafoam green */
 }
 
 #edit-status.error {
-    color: red !important;
+    color: #d32f2f !important; /* keep red for error */
 }
 
 #edit-status.success {
-    color: green !important;
+    color: #66A5AD !important; /* seafoam green */
 }

@@ -1,12 +1,12 @@
 .back-link {
-  color: #0057a3;
+  color: #66A5AD; /* seafoam green */
   text-decoration: none;
   cursor: pointer;
   transition: color 0.2s ease;
 }
 
 .back-link:hover {
-  color: #003f7d;
+  color: #4d8386; /* darker seafoam */
   text-decoration: underline;
 }
 
@@ -16,28 +16,28 @@
   background-color: #ffffff;
   border-radius: 8px;
   overflow: hidden;
-  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 3px 8px rgba(102, 165, 173, 0.2); /* seafoam shadow */
 }
 
 #grade-table th, #grade-table td {
   padding: 16px 12px;
   text-align: left;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #c4d9db; /* light seafoam border */
   font-size: 0.95rem;
 }
 
 #grade-table th {
-  background-color: #0057a3;
+  background-color: #66A5AD; /* seafoam green */
   color: white;
   font-weight: bold;
 }
 
 #grade-table tbody tr:hover {
-  background-color: #f1f7ff;
+  background-color: #d7e9eb; /* very light seafoam blue */
 }
 
 .action-btn {
-  background-color: #0057a3;
+  background-color: #66A5AD; /* seafoam green */
   color: white;
   border: none;
   padding: 6px 10px;
@@ -51,5 +51,5 @@
 }
 
 .action-btn:hover {
-  background-color: #003f7d;
+  background-color: #4d8386; /* darker seafoam */
 }

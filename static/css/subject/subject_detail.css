@@ -3,7 +3,7 @@
     text-decoration: none;
     font-size: 2rem;
     margin-right: 10px;
-    color: #0057a3;
+    color: #66A5AD; /* updated */
     padding: 6px 10px;
     border-radius: 4px;
     transition: background-color 0.2s ease;
@@ -11,7 +11,7 @@
 }
 
 #subject-title:hover {
-    background-color: #e0e0e0;
+    background-color: #C4DFE6; /* updated */
 }
 
 /* Subject Code Style */
@@ -29,7 +29,7 @@
 }
 
 .subject-actions .action-btn {
-    background-color: #0057a3;
+    background-color: #66A5AD; /* updated */
     color: white;
     text-decoration: none;
     padding: 10px 18px;
@@ -39,13 +39,13 @@
 }
 
 .subject-actions .action-btn:hover {
-    background-color: #003f7d;
+    background-color: #3B7A7F; /* darker teal shade */
 }
 
 /* Enrolled Students Section */
 h3 {
     font-size: 1.5rem;
-    color: #0057a3;
+    color: #66A5AD; /* updated */
     margin-bottom: 10px;
 }
 
@@ -69,7 +69,7 @@ ul#enrolled-students li:hover {
 }
 
 ul#enrolled-students li a {
-    color: #0057a3;
+    color: #66A5AD; /* updated */
     font-weight: 600;
     text-decoration: none;
 }
@@ -95,7 +95,7 @@ ul#enrolled-students li a {
 
 /* Inside: Link stays styled */
 .student-entry .student-name {
-    color: #0057a3;
+    color: #66A5AD; /* updated */
     font-weight: 600;
     text-decoration: none;
 }
@@ -111,7 +111,7 @@ ul#enrolled-students li a {
 
 .student-entry .unenroll-btn {
     background-color: transparent;
-    color: #a00;
+    color: #a00; /* keep red */
     font-size: 1.1rem;
     text-decoration: none;
     padding: 6px 10px;
